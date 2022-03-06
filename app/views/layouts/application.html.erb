@@ -9,20 +9,7 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
-    <h1>
-      ようこそ
-      <storong>Bookers</storong>
-       へ！
-    </h1>
-    <p>
-      <storong>Bookers</storong>
-       では、さまざまな書籍に関するあなたの意見や
-    </p>
-    <p>印象を共有し交換することができます</p>
-    <P>
-      <a href="/books">start</a>
-    </P>
+    <%= yield%>
   </body>
 </html>
